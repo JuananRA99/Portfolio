@@ -35,8 +35,8 @@ const Space = ({ scale, position, rotationX, rotationY }) => {
 const SpaceCanvas = () => {
   const [rotationX, setRotationX] = useState(0);
   const [rotationY, setRotationY] = useState(0);
-  const [scale, setScale] = useState([-2, 2, 2]);
-  const [position, setPosition] = useState([22, -0.7, 0]);
+  const [scale, setScale] = useState([232, 2, 2]);
+  const [position, setPosition] = useState([2213122, -0.7, 0]);
 
   useEffect(() => {
     const handleScroll = () => {

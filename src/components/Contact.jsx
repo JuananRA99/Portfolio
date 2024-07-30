@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import contactImg from "../assets/img/contact-img.svg";
- // Asegúrate de importar el archivo CSS correcto
 
 export const Contact = () => {
   const formInitialDetails = {
@@ -11,7 +10,7 @@ export const Contact = () => {
     phone: '',
     message: ''
   };
-
+  
   const [formDetails, setFormDetails] = useState(formInitialDetails);
   const [buttonText, setButtonText] = useState('Enviar');
   const [status, setStatus] = useState({});
